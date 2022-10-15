@@ -1,0 +1,165 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background-image: url("bg.png");
+    background-size: cover;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* min-height: 100vh; */
+    width: 100vw;
+    overflow-x: hidden;
+}
+
+.tagline{
+  /* font-family: 'Baloo Bhai 2', cursive; */
+  font-size:22px;
+  /* color:#202224; */
+  /* text-shadow: 2px 2px #202224; */
+}
+
+.container {
+    background-color: #202224;
+    border-radius: 10px;
+    box-shadow: 1px 1px 3px #2C2F33;
+    width: 755px;
+    overflow: hidden;
+    max-width: 100%;
+    margin:70px;
+    padding-bottom:20px;
+    background-image: url("wallpaperflare.com_wallpaper.jpg") ;
+}
+
+.logo {
+    margin-top:40px;
+    margin-bottom:19px;
+    width:63px; 
+    height:67px;
+}
+
+#btn {
+    /* border-radius: 5px; */
+    border: none;
+    outline: none;
+    color: black;
+    border-radius: 6px;
+    font-weight: 700;
+    display: block;
+    font-size: 16px;
+    padding: 15px 0;
+    width: 100%;
+    text-transform: uppercase;
+    transition: all 0.3s linear;
+    margin-top:45px;
+}
+
+#btn:hover {
+    background-color:grey;
+}
+
+header {
+    text-align: center;
+}
+
+.sign {
+    font-weight: 700;
+    text-transform: uppercase;
+    padding:15px;
+    font-family: 'Baloo Bhai 2', cursive;
+    font-size: 19px;
+    /* color:#2C2F33; */
+}
+
+.form {
+    padding: 40px 115px;
+    padding-bottom:60px;
+    
+}
+
+.form-control {
+    margin-bottom: 33px;
+    position: relative;
+}
+
+.form-control label {
+    display: inline-block;
+    margin-bottom: 5px;
+}
+
+#gender {
+    display: block;
+}
+
+input[type="radio"] {
+    display: inline-block;
+    top: 5%;
+    left: 5%;
+}
+
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+}
+
+.form-control input {
+    width: 100%;
+    border: 7px solid #f0f0f0;
+    border-radius: 5px;
+    display: block;
+    font-size: 14px;
+    padding: 12px;
+}
+
+.form-control input:focus {
+    outline: 0;
+    border-color: #777;
+}
+
+.form-control.success input {
+    border-color: #2ecc71;
+}
+
+.form-control.error input {
+    border-color: #e74c3c;
+}
+
+.form-control i {
+    color: #000;
+    position: absolute;
+    right: 2%;
+    top: 44px;
+    visibility: hidden;
+}
+
+
+.form-control.success i.fa-check {
+    color: #2ecc71;
+    visibility: visible;
+}
+
+.form-control.error i.fa-exclamation {
+    color: #e74c3c;
+    visibility: visible;
+}
+
+.form-control small {
+    color: #e74c3c;
+    position: absolute;
+    visibility: hidden;
+    bottom: -22%;
+    /* left: 4.5%; */
+}
+
+.form-control.error small {
+    visibility: visible;
+}
